@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1643944458281839849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1643944458281839846}
+  - component: {fileID: 859614397509563540}
+  m_Layer: 0
+  m_Name: Generators
+  m_TagString: Generators
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1643944458281839846
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643944458281839849}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.9738162, y: 1.6366124, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &859614397509563540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643944458281839849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6e669e929167248bbac631ed5b2b72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Water_AlphaCutOff: 0
+  Water_AlphaStroke: 0
+  Water_TrailStartSize: 0
+  Water_TrailEndSize: 0
+  Water_TrailDelay: 0
+  Water_size: 0
+  Water_DelayBetweenParticles: 0
+  Cream_AlphaCutOff: 0
+  Cream_AlphaStroke: 0
+  Cream_TrailStartSize: 0
+  Cream_TrailEndSize: 0
+  Cream_TrailDelay: 0
+  Cream_size: 0
+  Cream_DelayBetweenParticles: 0
+  IceCream_AlphaCutOff: 0
+  IceCream_AlphaStroke: 0
+  IceCream_TrailStartSize: 0
+  IceCream_TrailEndSize: 0
+  IceCream_TrailDelay: 0
+  IceCream_size: 0
+  IceCream_DelayBetweenParticles: 0
+  Hot_AlphaCutOff: 0
+  Hot_AlphaStroke: 0
+  Hot_TrailStartSize: 0
+  Hot_TrailEndSize: 0
+  Hot_TrailDelay: 0
+  Hot_size: 0
+  Hot_DelayBetweenParticles: 0
+  ScreenLoaderOut: {fileID: 185981554797872115, guid: 2ce54d710d598984a88a0d46e4a5d500,
+    type: 3}
+  GetDelay: {fileID: 6212362882820753218, guid: ed9ee7bf29b35494cbe14570638a78d6,
+    type: 3}
